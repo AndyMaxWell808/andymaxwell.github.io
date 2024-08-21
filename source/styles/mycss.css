@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+  font-family: Montserrat, serif;
+  background: #eaeaea;
+}
+
+p {
+  color: #101010;
+  margin-bottom: 0;
+}
+
+.nav-link {
+  color: #cecece;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+.navbar-brand img {
+  width: 80px;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.sidebar {
+  color: #101010;
+  background: #f7f7f7;
+}
+
+.card {
+  background: #fff;
+  color: #101010;
+}
+
+.card a {
+  text-decoration: none;
+  color: #101010;
+}
+
+.slide-text,
+.footer-text {
+  color: #101010;
+  margin: auto auto;
+}
+
+.btn-outline-primary {
+  background: #eaeaea;
+}
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-anim {
+  animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+
+.footer {
+  padding: 15px 0;
+  background-color: #101010;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.col-lg-12.sidebar.my-4 {
+  border-radius: 8px;
+}
+
+.col-lg-12.sidebar.my-4 p {
+  padding: 1em 0.5em;
+}
+
+.carousel-control-prev {
+  left: -120px;
+}
+
+@media (min-width: 992px) {
+  .carousel-control-next {
+    right: -65px;
+  }
+}
+
+.col-lg-6.col-md-6.slide-text p {
+  padding-right: 30px;
+}
+
+.img-carousel {
+  border-radius: 8px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  color: #101010 !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #f7f7f7;
+}
+
+.btn.btn-primary {
+  color: #fff;
+  margin-top: 0.7em;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("https://cdn-icons-png.flaticon.com/128/32/32542.png") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("https://cdn-icons-png.flaticon.com/128/271/271228.png") !important;
+}
+
+.text-center a {
+  text-decoration: none;
+}
+
+.col-lg-12.col-md-12.text-center img {
+  width: 50px;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+.carousel-indicators [data-bs-target] {
+  background: #0d6efd;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-radius: 2px;
+}
+
+.footer p {
+  color: #fff;
+}
